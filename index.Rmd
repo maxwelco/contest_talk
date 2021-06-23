@@ -51,7 +51,7 @@ meta() %>%
     title = "Doing Good at the 2021 Weeds Contest",
     url = "https://contest-talk.netlify.app/",
     image = "images/dandelion.jpeg",
-    image_alt = "Seminar to UW-Madison students aboout the Weeds Contest",
+    image_alt = "This an image of a dandelion. One of the most common weed species in the US",
     og_type = "website",
     twitter_card_type = "summary_large_image",
     twitter_creator = "@maxwelco"
