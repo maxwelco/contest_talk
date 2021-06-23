@@ -2,8 +2,8 @@
 title: "Doing Good at the 2021 Weeds Contest"
 subtitle: "Random lessons from an experienced contester"  
 author: 
-  - "Maxwel C Oliveira"
-date: '`r Sys.Date()`'
+  - "Maxwel Coura Oliveira"
+date: 'Jun 28, 2021'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -39,6 +39,25 @@ library(xaringanthemer)
 style_solarized_light()
 ```
 
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "Oliveira's lecture at the University of Wisconsin-Madison",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "maxwel/talks") %>% 
+  meta_social(
+    title = "Doing Good at the 2021 Weeds Contest",
+    url = "https://contest-talk.netlify.app/",
+    image = "images/dandelion.jpeg",
+    image_alt = "Seminar to UW-Madison students aboout the Weeds Contest",
+    og_type = "website",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@maxwelco"
+    ) %>% 
+   include_meta()
+```
 
 ```{r features, include=FALSE, warning=FALSE}
 xaringanExtra::use_search(show_icon = TRUE,
@@ -130,6 +149,15 @@ background-size: contain
 
 ---
 
+## The weeds contest
+
+<center>
+<iframe width="750" height="500" src="https://www.youtube.com/embed/-5wufijc09g;start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+
+---
+
 class: center
 background-image: url(images/notes.jpeg)
 background-position: right
@@ -160,10 +188,9 @@ class: middle, center
 
 Do not worry if you have to do it
 
-<br>
 
 <center>
-<img src="https://media.giphy.com/media/BjHIjM2YFC3rEUaMrw/giphy.gif" width="500px"/>
+<img src="https://media.giphy.com/media/BjHIjM2YFC3rEUaMrw/giphy.gif" width="550px"/>
 </center>
 
 ---
@@ -177,7 +204,7 @@ background-size: contain
 ## Lesson # 3
 
 
-The outcome from the Weeds Contest will not define you
+The outcome will not define you
 ]
 
 
@@ -190,7 +217,7 @@ background-size: contain
 
 ## Lesson # 4
 
-In most of the cases your skills do not align to weeds contest
+Your skills might not align to weeds contest
 
 ---
 name: win
@@ -241,7 +268,7 @@ class: middle, center
 You have nothing to loose
 
 <center>
-<img src="https://media.giphy.com/media/wb5LJQjWoNUnm/giphy.gif" width="600px"/>
+<img src="https://media.giphy.com/media/wb5LJQjWoNUnm/giphy.gif" width="630px"/>
 </center>
 
 
@@ -294,9 +321,6 @@ background-size: contain
 
 ## Lesson # 12
 
-Look around you
-
-
 Weeds are everywhere
 
 
@@ -326,7 +350,7 @@ background-size: contain
 
 ## Lesson # 14
 
-Be willing to learn
+Learn a new thing a day
 
 ---
 name: farmer
@@ -347,10 +371,10 @@ class: middle, center
 
 ## Lesson # 16
 
-Learn from growers, agronomist, consultants ...
+Learn from growers, agronomists, consultants ...
 
 <center>
-<img src="https://media.giphy.com/media/yFBuT2aiXTePS/giphy.gif" width="600px"/>
+<img src="https://media.giphy.com/media/yFBuT2aiXTePS/giphy.gif" width="850px"/>
 </center>
 
 
@@ -378,7 +402,7 @@ Do not read only research papers
 <br>
 
 <center>
-<img src="https://media.giphy.com/media/TwJ6ix2kjxloQ/giphy.gif" width="700px"/>
+<img src="https://media.giphy.com/media/TwJ6ix2kjxloQ/giphy.gif" width="780px"/>
 </center>
 
 
@@ -441,7 +465,7 @@ class: middle, center
 Do not burn out
 
 <center>
-<img src="https://media.giphy.com/media/QvAx77lUmfSwVhVxuv/giphy.gif" width="800px"/>
+<img src="https://media.giphy.com/media/QvAx77lUmfSwVhVxuv/giphy.gif" width="850px"/>
 </center>
 
 ---
@@ -477,7 +501,7 @@ background-size: contain
 .pull-right[
 ## Lesson # 26
 
-Set achievable goals
+Set goals
 ]
 
 
@@ -525,7 +549,7 @@ class: middle, center
 
 ## Lesson # 30
 
-You will need to solve problems
+You have to solve problems
 
 <center>
 <img src="images/wheat.jpeg" width="800px"/>
@@ -538,7 +562,7 @@ class: middle, center
 
 ## Lesson # 31
 
-You need to assemble things
+You have to assemble things
 
 <center>
 <img src="images/assemble.jpg" width="700px"/>
@@ -561,38 +585,74 @@ Herbicide ID is not easy
 
 ---
 
-background-image: url(images/backpack.jpeg)
+background-image: url(https://miro.medium.com/max/3990/1*boLqLMqFZlD0n8RWKsMD_A.jpeg)
 background-position: right
 background-size: contain
 
 
 ## Lesson # 33
 
-Weeds contest is part of your journey
+Create mental models
 
 
 ---
 
+background-image: url(images/backpack.jpeg)
+background-position: left
+background-size: contain
+
+.pull-right[
+## Lesson # 34
+
+Weeds contest is part of your journey
+]
+
+---
+
+background-image: url(images/puzzle.jpeg)
+background-position: right
+background-size: contain
+
+
+## Lesson # 35
+
+My lessons will not make you win
+
+---
+class: center
+background-image: url(images/puzzle_1.jpeg)
+background-position: middle
+background-size: cover
+
+
+## Learn from your own lessons
+
+
+---
+
+
 background-image: url(images/aeronautics.jpeg)
+background-position: right
+background-size: contain
+
+
+## Weeds contest
+
+It is like assembling a balloon
+
+
+
+---
+
+background-image: url(images/balloon.jpeg)
 background-position: left
 background-size: contain
 
 .pull-right[
 ## Weeds contest
 
-It like assembling a balloon
-
-]
-
----
-
-background-image: url(images/balloon.jpeg)
-background-position: right
-background-size: contain
-
-## Weeds contest
-
 The most important thing is being there
+]
 
 ---
 
